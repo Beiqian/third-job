@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#demo{
+	width: 976px;
+	height: 380px;
+	position: absolute;
+	left: 15%;
+}
+li{
+	list-style-type: none;
+}
+#num{
+	position: absolute;
+	bottom: 1px;
+	z-index: 10;
+	left: 420px;
+	right: 15px;
+	top: 360px;
+	display: block;
+}
+#num a{
+	width: 14px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 3px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: #888;
+}
+#num a.cur{
+	width: 14px;
+	height: 14px;
+	color: #fff;
+	background: #ff6700;
+	background: url(img/05.png) no-repeat;
+}
